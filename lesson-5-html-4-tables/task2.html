@@ -2,9 +2,42 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Table</title>
 </head>
 <body>
-
+<table border="1" cellpadding="4" cellspacing="0" width="200px" h>
+    <tr>
+       <td colspan="2">1</td>
+       <td colspan="3">2</td>
+       <td colspan="2" bgcolor="#ffff00">3</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td colspan="4" rowspan="2" bgcolor="#ff0000">5</td>
+        <td colspan="2" bgcolor="#ffff00">6</td>
+    </tr>
+    <tr>
+        <td rowspan="2">7</td>
+        <td>9</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td colspan="2" rowspan="2" bgcolor="#000000">12</td>
+        <td colspan="2">13</td>
+        <td colspan="2">14</td>
+    </tr>
+    <tr>
+        <td rowspan="3" bgcolor="#ffff00">15</td>
+        <td colspan="2">17</td>
+        <td colspan="2" rowspan="2" bgcolor="#0000ff">18</td>
+    </tr>
+    <tr>
+        <td colspan="2" rowspan="2">19</td>
+        <td colspan="2" bgcolor="#000000">20</td>
+    </tr>
+    <tr>
+        <td colspan="2">22</td>
+        <td colspan="2">23</td>
+</table>
 </body>
 </html>
